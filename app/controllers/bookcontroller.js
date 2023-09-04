@@ -8,7 +8,6 @@ const dbversion = db.BookVersion;
 
 const addB = async(req,res,next)=>{
   const user_id=req.query.user_id;
-  
   const data = await dbauthor.findAll({where:{id:user_id}});
     res.render('addbook', {
     title: 'Add Book ...',

@@ -40,7 +40,9 @@ const homepage =async(req, res, next)=>{
   // res.cookie("session_token", sessionToken, { expires: expiresAt });
   //   res.end();
   const errorMessage = req.flash('error')[0];
-  const testgit=1;
+  const testgit=132;
+  const test2="Test2";
+  const test4= "tes3de";
   res.render('homepage',{
     title:'User Register...',
     errorMessage

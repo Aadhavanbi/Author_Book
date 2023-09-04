@@ -12,7 +12,6 @@ const addC = async(req,res,next)=>{
 }
 const addCity = async(req,res,next)=> {
     const cid= req.body.state_id;
-   
     const state= await dbstate.findOne({
       where:{
         id:cid
