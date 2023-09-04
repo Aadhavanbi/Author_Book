@@ -41,7 +41,7 @@ const homepage =async(req, res, next)=>{
   //   res.end();
   const errorMessage = req.flash('error')[0];
   const testgit=132;
-  const test2="merage_tes";
+  const test2="merage";
 
   res.render('homepage',{
     title:'User Register...',
