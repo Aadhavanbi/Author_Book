@@ -41,12 +41,9 @@ const homepage =async(req, res, next)=>{
   //   res.end();
   const errorMessage = req.flash('error')[0];
   const testgit=132;
-<<<<<<< HEAD
   const test2="";
-=======
-  
->>>>>>> 705a72776a5bd758bbf5e085fceef919064259b9
 
+  
   res.render('homepage',{
     title:'User Register...',
     errorMessage
