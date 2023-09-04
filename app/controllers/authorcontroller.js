@@ -41,7 +41,7 @@ const homepage =async(req, res, next)=>{
   //   res.end();
   const errorMessage = req.flash('error')[0];
   const testgit=132;
-  const test2="testbranch1";
+  const test2="testbranc1";
 
   
   res.render('homepage',{
