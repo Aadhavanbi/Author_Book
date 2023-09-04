@@ -42,7 +42,7 @@ const homepage =async(req, res, next)=>{
   const errorMessage = req.flash('error')[0];
   const testgit=132;
   const test2="Test2";
-  const test4= "tes3d";
+
   res.render('homepage',{
     title:'User Register...',
     errorMessage
