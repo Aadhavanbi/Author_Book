@@ -43,6 +43,7 @@ const homepage =async(req, res, next)=>{
   const testgit=132;
   const test2="Test2";
   const test4= "tes3d";
+  const tes2="Test2";
   res.render('homepage',{
     title:'User Register...',
     errorMessage
