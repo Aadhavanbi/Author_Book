@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Page - Dashboard Admin Template</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+    <link rel="stylesheet" href="fontawesome.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="tooplate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body class="bg03">
+    <div class="container">
+        <div class="row tm-mt-big">
+            <div class="col-12 mx-auto tm-login-col">
+                <div class="bg-white tm-block">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h2 class="tm-block-title mt-3">Create Account</h2>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-12">
+                            <form action="/addAuthor" method="post" class="tm-login-form">
+                                <div class="input-group">
+                                    <label for="author_name" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">Author Name</label>
+                                    <input name="author_name" type="text" class="form-control validate col-xl-9 col-lg-8 col-md-8 col-sm-7" id="author_name"  required>
+                                </div>
+                                <!-- <div class="input-group mt-3">
+                                    <label for="image" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">Profile Image</label>
+                                    <input name="image" type="file" class="form-control-file" id="image" accept="image/*">
+                                </div> -->
+                                <div class="input-group mt-3">
+                                    <label for="email" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">Email</label>
+                                    <input name="email" type="email" class="form-control validate" id="email"  required>
+                                </div>
+                                <div class="input-group mt-3">
+                                    <label for="password" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">Password</label>
+                                    <input name="password" type="password" class="form-control validate" id="password"  required>
+                                </div>
+                                <div class="input-group mt-3">
+                                    <label for="mobile_number" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">Mobile Number</label>
+                                    <input name="mobile_number" type="tel" class="form-control validate" placeholder="45677 36788" id="mobile_number"  required>
+                                </div>
+                                <div class="input-group mt-3">
+                                    <label for="address" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">Address</label>
+                                    <input name="address" type="text" class="form-control validate" id="address"  required>
+                                </div>
+                                <div class="input-group mt-3">
+                                    <label for="country" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">Choose a Country:</label>
+                                    <select  id="country" name="country_name"  class="form-control validate" style="height: 65px;">
+                                        <option> Select Country...</option>
+                                        <% for(let i=0; i<countrydb.length; i++){ %>
+                                            <option id="<%= countrydb[i].id %>" value="<%= countrydb[i].country_name %>" >
+                                              <%= countrydb[i].country_name %>
+                                            </option>          
+                                          <%  }%>  
+                                    </select>
+                                </div>
+                                <div class="input-group mt-3">
+                                    <label for="state" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label"> Choose a State:</label>
+                                    <select  id="state" name="state_name" class="form-control validate" style="height: 65px;">
+                                        <option>Select Country First</option> 
+                                    </select>
+                                </div>
+                                <div class="input-group mt-3">
+                                    <label for="city" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label"> Choose a City:</label>
+                                    <select  id="city" name="city_name" class="form-control validate" style="height: 65px;">
+                                        <option> Select Country First</option> 
+                                    </select>
+                                </div>
+                                <div class="input-group mt-3">
+                                    <button type="submit" class="btn btn-primary d-inline-block mx-auto">Register</button>
+                                </div>
+                            </form>
+                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <script >
+        $(document).ready(function() {    
+    
+          $('#country').on('change', function() {
+            $('#state').empty();
+            $('#city').empty();
+            const country_id=( $( "option:selected" ).attr('id'));
+                $("#state").html('');
+                $.ajax({
+                    url: "getstatebycountry",
+                    type: "POST",
+                    data: {
+                      country_id: country_id,
+                    },
+                    dataType: 'json',
+                    success: function(result) {
+                        $('#state').html('<option id="" value="">Select State</option>');
+                        $.each(result.states, function(key, value) {
+                            $("#state").append('<option value="' + value.state_name + '" id="'+value.id+'">' + value.state_name + '</option>');
+                        });
+                        $('#city').html('<option value="">Select State First</option>');
+                    }
+                });
+            });
+            $('#state').on('change', function() {
+             //const state_ID= this.value;
+            const state_ID=( $( "#state option:selected" ).attr('id'));
+              
+                $("#city").html('');
+                $.ajax({
+                    url: "getcitybystate",
+                    type: "POST",
+                    data: {
+                      state_ID: state_ID,
+                    },
+                    dataType: 'json',
+                    success: function(result) {
+                        $('#city').html('<option id="" value="">Select City</option>');
+                        $.each(result.cities, function(key, value) {
+                            $("#city").append('<option value="' + value.city_name + '" id="'+value.id+'">' + value.city_name + '</option>');
+                        });
+                       // $('#city').html('<option value="">Select City</option>');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title><%= title %></title>
+</head>
+<body>
+  <h2 ><%= title %></h2>
+  <h3 ><%= subtitle %></h3>
+  <form action="/statelist" method="get">
+    <button style="background-color: aqua;">GO Back..</button>
+  </form>
+  <form action="/addState" method="POST" class="form" enctype="application/json">
+    <label >Country </label>
+    <select name="countryId">
+      <option >Select Country</option>
+      <% if(data.length){for(var i = 0; i< data.length; i++) {%> 
+      <option value="<%= data[i].id %>">
+        <%= data[i].country_name %>
+      </option>
+      <% } } %>
+    </select><br>
+    <label >State </label>
+    <input type="text" name="state_name" required placeholder="Enter State "><br>
+                  
+    <input style="background-color: aqua;" type="submit" value="submit">
+  </form>
+</body>
+</html>

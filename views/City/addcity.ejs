@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title><%= title %></title>
+</head>
+<body>
+<main>
+    <h2 ><%= title %></h2>
+    <h3 ><%= subtitle %></h3>
+    <form action="/citylist" method="get">
+      <button style="background-color: aqua;">GO Back..</button>
+    </form>
+      <form action="/addCity" method="POST" class="form" enctype="application/json">
+        
+        
+          <label >State q-</label>
+          <select name="state_id">
+          <option >Select State</option>
+          <% if(data.length){for(var i = 0; i< data.length; i++) {%> 
+          <option value="<%= data[i].id %>">
+          <%= data[i].state_name %>
+          </option>
+          <% } } %>
+          </select><br>
+
+          <label >City -</label>
+          <input type="text" name="city_name" required placeholder="Enter City Name...."><br>
+                  
+          <input style="background-color: aqua;" type="submit" value="submit">
+         
+          </form>
+</main>
+</body>
+</html>

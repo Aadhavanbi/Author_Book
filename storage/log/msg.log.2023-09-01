@@ -1,0 +1,855 @@
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'kanu@gmail.com' AND `author`.`password` = '1';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 1;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `country_name` FROM `countries` AS `country`;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `state_name`, `country_name`, `countryId` FROM `states` AS `state`;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `city_name`, `state_name`, `state_id` FROM `cities` AS `city`;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `state_name`, `country_name`, `countryId` FROM `states` AS `state` WHERE `state`.`countryId` = '1';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `city_name`, `state_name`, `state_id` FROM `cities` AS `city` WHERE `city`.`state_id` = '2';"}
+{"level":"info","message":"Executing (default): INSERT INTO `authors` (`id`,`author_name`,`email`,`password`,`mobile_number`,`address`,`country`,`state`,`city`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`id` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): SELECT `author`.`id`, `author`.`image`, `author`.`author_name`, `author`.`email`, `author`.`password`, `author`.`mobile_number`, `author`.`address`, `author`.`country`, `author`.`state`, `author`.`city`, `books`.`id` AS `books.id`, `books`.`book_name` AS `books.book_name`, `books`.`description` AS `books.description`, `books`.`author_name` AS `books.author_name`, `books`.`authorId` AS `books.authorId` FROM `authors` AS `author` LEFT OUTER JOIN `books` AS `books` ON `author`.`id` = `books`.`authorId` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): INSERT INTO `books` (`id`,`book_name`,`description`,`author_name`,`authorId`) VALUES (DEFAULT,?,?,?,?);"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): SELECT `author`.`id`, `author`.`image`, `author`.`author_name`, `author`.`email`, `author`.`password`, `author`.`mobile_number`, `author`.`address`, `author`.`country`, `author`.`state`, `author`.`city`, `books`.`id` AS `books.id`, `books`.`book_name` AS `books.book_name`, `books`.`description` AS `books.description`, `books`.`author_name` AS `books.author_name`, `books`.`authorId` AS `books.authorId` FROM `authors` AS `author` LEFT OUTER JOIN `books` AS `books` ON `author`.`id` = `books`.`authorId` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): INSERT INTO `books` (`id`,`book_name`,`description`,`author_name`,`authorId`) VALUES (DEFAULT,?,?,?,?);"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): SELECT `author`.`id`, `author`.`image`, `author`.`author_name`, `author`.`email`, `author`.`password`, `author`.`mobile_number`, `author`.`address`, `author`.`country`, `author`.`state`, `author`.`city`, `books`.`id` AS `books.id`, `books`.`book_name` AS `books.book_name`, `books`.`description` AS `books.description`, `books`.`author_name` AS `books.author_name`, `books`.`authorId` AS `books.authorId` FROM `authors` AS `author` LEFT OUTER JOIN `books` AS `books` ON `author`.`id` = `books`.`authorId` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): INSERT INTO `books` (`id`,`book_name`,`description`,`author_name`,`authorId`) VALUES (DEFAULT,?,?,?,?);"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): SELECT `author`.`id`, `author`.`image`, `author`.`author_name`, `author`.`email`, `author`.`password`, `author`.`mobile_number`, `author`.`address`, `author`.`country`, `author`.`state`, `author`.`city`, `books`.`id` AS `books.id`, `books`.`book_name` AS `books.book_name`, `books`.`description` AS `books.description`, `books`.`author_name` AS `books.author_name`, `books`.`authorId` AS `books.authorId` FROM `authors` AS `author` LEFT OUTER JOIN `books` AS `books` ON `author`.`id` = `books`.`authorId` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): INSERT INTO `books` (`id`,`book_name`,`description`,`author_name`,`authorId`) VALUES (DEFAULT,?,?,?,?);"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): SELECT `author`.`id`, `author`.`image`, `author`.`author_name`, `author`.`email`, `author`.`password`, `author`.`mobile_number`, `author`.`address`, `author`.`country`, `author`.`state`, `author`.`city`, `books`.`id` AS `books.id`, `books`.`book_name` AS `books.book_name`, `books`.`description` AS `books.description`, `books`.`author_name` AS `books.author_name`, `books`.`authorId` AS `books.authorId` FROM `authors` AS `author` LEFT OUTER JOIN `books` AS `books` ON `author`.`id` = `books`.`authorId` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): INSERT INTO `books` (`id`,`book_name`,`description`,`author_name`,`authorId`) VALUES (DEFAULT,?,?,?,?);"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): SELECT `author`.`id`, `author`.`image`, `author`.`author_name`, `author`.`email`, `author`.`password`, `author`.`mobile_number`, `author`.`address`, `author`.`country`, `author`.`state`, `author`.`city`, `books`.`id` AS `books.id`, `books`.`book_name` AS `books.book_name`, `books`.`description` AS `books.description`, `books`.`author_name` AS `books.author_name`, `books`.`authorId` AS `books.authorId` FROM `authors` AS `author` LEFT OUTER JOIN `books` AS `books` ON `author`.`id` = `books`.`authorId` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): INSERT INTO `books` (`id`,`book_name`,`description`,`author_name`,`authorId`) VALUES (DEFAULT,?,?,?,?);"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): SELECT `author`.`id`, `author`.`image`, `author`.`author_name`, `author`.`email`, `author`.`password`, `author`.`mobile_number`, `author`.`address`, `author`.`country`, `author`.`state`, `author`.`city`, `books`.`id` AS `books.id`, `books`.`book_name` AS `books.book_name`, `books`.`description` AS `books.description`, `books`.`author_name` AS `books.author_name`, `books`.`authorId` AS `books.authorId` FROM `authors` AS `author` LEFT OUTER JOIN `books` AS `books` ON `author`.`id` = `books`.`authorId` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): INSERT INTO `books` (`id`,`book_name`,`description`,`author_name`,`authorId`) VALUES (DEFAULT,?,?,?,?);"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): SELECT `author`.`id`, `author`.`image`, `author`.`author_name`, `author`.`email`, `author`.`password`, `author`.`mobile_number`, `author`.`address`, `author`.`country`, `author`.`state`, `author`.`city`, `books`.`id` AS `books.id`, `books`.`book_name` AS `books.book_name`, `books`.`description` AS `books.description`, `books`.`author_name` AS `books.author_name`, `books`.`authorId` AS `books.authorId` FROM `authors` AS `author` LEFT OUTER JOIN `books` AS `books` ON `author`.`id` = `books`.`authorId` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): INSERT INTO `books` (`id`,`book_name`,`description`,`author_name`,`authorId`) VALUES (DEFAULT,?,?,?,?);"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `version`, `description`, `book_name`, `bookId` FROM `bookVersions` AS `bookVersion` WHERE `bookVersion`.`bookId` = '8';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `version`, `description`, `book_name`, `bookId` FROM `bookVersions` AS `bookVersion` WHERE `bookVersion`.`bookId` = '9';"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`id` = '8';"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'authors' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `authors` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'books' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `books` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'bookVersions' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `bookVersions` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'countries' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `countries` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'states' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `states` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'cities' AND TABLE_SCHEMA = 'author'"}
+{"level":"info","message":"Executing (default): SHOW INDEX FROM `cities` FROM `author`"}
+{"level":"info","message":"Executing (default): SELECT `id`, `image`, `author_name`, `email`, `password`, `mobile_number`, `address`, `country`, `state`, `city` FROM `authors` AS `author` WHERE `author`.`email` = 'aadhavanvalli@gmail.com' AND `author`.`password` = '3977';"}
+{"level":"info","message":"Executing (default): SELECT `id`, `book_name`, `description`, `author_name`, `authorId` FROM `books` AS `book` WHERE `book`.`authorId` = 8;"}

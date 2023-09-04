@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title><%= title %></title>
+</head>
+<body>
+   <form action="/addV">
+  <button style="align-items: center;">Add Version</button>
+</form>
+<form action="/addV">
+    <h2><%= title %></h2>
+    <h3><%= subtitle %></h3>
+
+  <% if(data &&data.length > 0) { %>
+    <section >
+      <table class="view_version">
+        <thead style="background-color: burlywood;">
+          <tr>
+            <th>ID</th>
+            <th>Version</th>
+            <th>Description</th>
+            <th>BOOK Name</th>
+            </tr>
+        </thead>
+        <tbody>
+          <% for(let suthor of data) { %>
+          
+
+          <tr id="suthor" class="suthor">
+            <td class="id" data-title="id"><%= suthor.id %></td>
+            <td class="version" data-title="version"><%= suthor.version %></td>
+            <td class="description" data-title="description"><%= suthor.description %></td>
+            <td class="book_name" data-title="book_name"><%= suthor.book_name %></td>
+            
+           <!-- <td class="author_see">
+              <form action="/users/<%= suthor.id %>" method="GET">
+                <button class="user__see--btn">View Author</button>
+              </form>
+            </td>
+            -->
+           <!--  <td class="book_edit">
+              <form action="/book/<%= suthor.id %>" method="get">
+                <input type="hidden" name="edit" value="edit">
+                <button class="book_edit">Edit Book</button>
+              </form>
+            </td>
+            <td class="book_delete">
+              <form action="/book/<%= suthor.id %>/delete" method="POST">
+                <button class="book_delete--btn">Delete Book</button>
+              </form>
+            </td> -->
+          </tr>
+          
+          <% } %>
+        </tbody>
+      </table>
+    </section>
+  <% } else { %>
+  <h3>ADD the Book ..</h3>
+  <% } %>
+</form>
+<!-- <form action="/author" method="get">
+  <button >Back Author..</button>
+</form> -->
+</body>
+
+</html>

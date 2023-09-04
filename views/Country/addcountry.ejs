@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title><%= title %></title>
+</head>
+<body>
+  <h2 ><%= title %></h2>
+  <form action="/countrylist" method="get">
+    <button style="background-color: aqua;">GO Back..</button>
+  </form>
+  <form action="/addCountry" method="POST" class="form" enctype="application/json"> 
+    <label >Country </label>
+    <input type="text" name="country_name" required placeholder="Enter Country Name...."><br>    
+    <button>submit</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title><%= title %></title>
+</head>
+
+    <h2><%= title %></h2>
+    <h3><%= subtitle %></h3>
+  <% if(data && data.length >= 0) { %>
+    <section >
+      <form action="/addS"  style="padding-left: 570px;padding-bottom: 10px;">
+        <button style="background-color:cornflowerblue; height: 30px;">Add State</button>
+      </form>
+      <table >
+       
+        <thead style="background-color: burlywood;">
+          <tr>
+            <th>ID</th>
+            <th>State Name</th>
+            <th>Country Name</th>
+            <th>Country Id</th>
+            </tr>
+        </thead>
+        <tbody>
+          <% for(let suthor of data) { %>
+          <tr>
+            <td class="id" ><%= suthor.id %></td>
+            <td class="state_name" ><%= suthor.state_name %></td>
+            <td class="country_name"><%= suthor.country_name %></td>
+            <td class="countryId"><%= suthor.countryId %></td>
+            <td class="user_edit">
+              <form action="/<%= suthor.id %>/stateedit" method="get" style="padding-left: 20px;">
+                <input type="hidden" name="edit" value="edit">
+                <button class="author_edit" style="background-color: chartreuse;">Edit State</button>
+              </form>
+            </td>
+            <td class="user_delete">
+              <form action="/<%= suthor.id %>/delete" method="POST" style="padding-left: 20px;">
+                <button class="author_delete--btn" style="background-color: cornflowerblue;">Delete State</button>
+              </form>
+            </td>            
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </section>
+  <% } else { %>
+  <h3>Ops..</h3>
+  <% } %>
+
+</body>
+
+</html>

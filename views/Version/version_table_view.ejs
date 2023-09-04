@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title><%= title %></title>
+</head>
+<main>
+    <h2><%= title %></h2>
+    <h3><%= subtitle %></h3>
+
+  <% if(data && data.length >= 0) { %>
+    <section >
+      <form action="/addV" style="padding-left: 335px;padding-bottom: 10px;">
+        <button style="background-color:cornflowerblue; height: 30px;">Add Version..</button>
+      </form>
+      <table>
+       
+        <thead  style="background-color: burlywood;">
+          <tr>
+            <th>ID</th>
+            <th>Version</th>
+            <th>Description</th>
+            <th>Book Name</th>
+            </tr>
+        </thead>
+        <tbody>
+          <% for(let suthor of data) { %>
+          <tr>
+            <td class="id" data-title="id"><%= suthor.id %></td>
+            <td class="version" data-title="version"><%= suthor.version %></td>
+            <td class="description" data-title="description"><%= suthor.description %></td>
+            <td class="book_name" data-title="book_name"><%= suthor.book_name %></td>
+           <!-- <td class="author_see">
+              <form action="/users/<%= suthor.id %>" method="GET">
+                <button class="user__see--btn">View Author</button>
+              </form>
+            </td>
+            -->
+            <td class="user_edit">
+              <form action="/<%= suthor.id %>/versionedit" method="get">
+                <input type="hidden" name="edit" value="edit">
+                <button style="background-color: chartreuse">Edit Version</button>
+              </form>
+            </td>
+            <td class="version_delete">
+              <form action="/<%= suthor.id %>/versiondelete" method="POST">
+                <button  style="background-color: cornflowerblue;">Delete Version</button>
+              </form>
+            </td>
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+    </section>
+  <% } else { %>
+  <h3>Ops..</h3>
+  <% } %>
+</main>
+<!-- <form action="/author" style="padding-left:150px; padding-top: 10px;">
+  <button style="background-color: bisque;width: 100px;font-size: medium;">Go Author Table...</button>
+</form>
+<form action="/book" style="padding-left:150px; padding-top: 30px;">
+  <button style="background-color: bisque;width: 100px;font-size: medium;">Go Book Table...</button>
+</form> -->
+</body>
+
+</html>

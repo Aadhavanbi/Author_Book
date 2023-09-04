@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title><%= title %></title>
+</head>
+<main>
+    <h2 ><%= title %></h2>
+    <h3 ><%= subtitle %></h3>
+    <form action="/versionlist" method="get">
+      <button style="background-color: aqua;">GO Back..</button>
+    </form>
+      <form action="/addVersion" method="POST" class="form" enctype="application/json">
+        
+        <div>
+          <label >BOOK ID-</label>
+          <select name="bookId">
+          <option >Select BookID</option>
+          <% if(data.length){for(var i = 0; i< data.length; i++) {%> 
+          <option value="<%= data[i].id %>">
+          <%= data[i].book_name %>
+          </option>
+          <% } } %>
+          </select>
+        </div>
+        <div>
+          <label >VERSION----</label>
+          <input type="text" name="version" required placeholder="Enter Book Version...."><br>
+         </div>
+         <div>
+          <label >Description---</label>
+          <input type="text" name="description"   placeholder="Enter Description...."><br>
+         </div>
+        
+         <input type="submit" value="submit">
+      </form>
+</main>
+
+
+</html>

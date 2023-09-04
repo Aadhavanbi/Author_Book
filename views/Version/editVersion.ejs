@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title><%= title %></title>
+</head>
+<main>
+    <h2><%= title %></h2>
+
+        <form action="/<%= data.id %>/editversionadd" method="POST" class="form">
+          <div>
+            <label >Version-</label>
+            <input type="text" name="version" required value="<%= data.version %>" placeholder="Version..."><br>
+           </div>
+           <div>
+            <label >Description---------</label>
+            <input type="text" name="description"   value="<%= data.description %>"  placeholder="Description...."><br>
+           </div>
+           <div>
+            <label >BOOK ID-</label>
+            <select name="bookId">
+            <option ><%= data.book_name %></option>
+            <% if(dataa.length){for(var i = 0; i< dataa.length; i++) {%> 
+            <option value="<%= dataa[i].id %>">
+            <%= dataa[i].book_name %>
+            </option>
+            <% } } %>
+            </select>
+          </div>
+           
+           <div >
+            <input  type="submit" value="submit">
+           </div>
+        </form>
+</main>
+</body>
+
+</html>

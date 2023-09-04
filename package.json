@@ -1,0 +1,43 @@
+{
+  "name": "author_book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "servies.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "country-state-picker": "^1.1.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.9",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.4.0",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.3",
+    "express-upload": "^0.1.0",
+    "fs": "0.0.1-security",
+    "ionic": "^5.4.16",
+    "jquery": "^3.7.0",
+    "jsdom": "^22.1.0",
+    "lodash": "^4.17.21",
+    "log4js": "^6.3.0",
+    "moment": "^2.29.4",
+    "mssql": "^7.2.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "sequelize": "^6.32.1",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6",
+    "window": "^4.2.7",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.5"
+  }
+}

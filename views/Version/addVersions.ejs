@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Page - Dashboard Admin Template</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+    <link rel="stylesheet" href="fontawesome.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="tooplate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body class="bg03">
+    <div class="container">
+        <div class="row tm-mt-big">
+            <div class="col-12 mx-auto tm-login-col">
+                <div class="bg-white tm-block">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h2 class="tm-block-title mt-3">Add Version</h2>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-12">
+                            <form action="/addVersion" method="post" class="tm-login-form">
+                                <div class="input-group mt-3">
+                                    <!-- <label for="authorId" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">Choose a Author:</label> -->
+                                    <select  id="bookId" name="bookId" style="display: none;">
+                                            <option id="<%= data[0].id %>" value="<%=data[0].id %>">
+                                                <%= data[0].book_name %>
+                                              </option>                                              </select>
+                                </div>
+                                <div class="input-group mt-3">
+                                    <label for="mobile_number" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">Version</label>
+                                    <input name="version" type="text" class="form-control validate" id="version"  required>
+                                </div>
+                                <div class="input-group mt-3">
+                                    <label for="address" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">Description</label>
+                                    <input name="description" type="text" class="form-control validate" id="description"  required>
+                                </div>
+                                <div class="input-group mt-3">
+                                    <button type="submit" class="btn btn-primary d-inline-block mx-auto">Submit</button>
+                                </div>
+                            </form>
+                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

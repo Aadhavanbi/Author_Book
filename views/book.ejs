@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Products Page - Dashboard Template</title>
+    <!--
+
+    Template 2108 Dashboard
+
+	http://www.tooplate.com/view/2108-dashboard
+
+    -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+    <!-- https://fonts.google.com/specimen/Open+Sans -->
+    <link rel="stylesheet" href="fontawesome.min.css">
+    <link rel="stylesheet" href="fullcalendar.min.css">
+    <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="tooplate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+</head>
+<body id="reportsPage" class="bg02">
+    <div class="" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+                        <a class="navbar-brand" href="/dashboard">
+                            <i class="fas fa-3x fa-tachometer-alt tm-site-icon"></i>
+                            <h1 class="tm-site-title mb-0">Dashboard</h1>
+                        </a>
+                        <button class="navbar-toggler ml-auto mr-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/dashboard">Author Details
+                                        <span class="sr-only">(current)</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="/books">Books</a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="/version">BookVersion</a>
+                                </li> -->
+                            </ul>
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link d-flex" href="/logout">
+                                        <i class="far fa-user mr-2 tm-logout-icon"></i>
+                                        <span>Logout</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div> 
+  <!-- row -->
+    <div class="row tm-content-row tm-mt-big">
+        <div class="col-xl-8 col-lg-12 tm-md-12 tm-sm-12 tm-col">
+            <div class="bg-white tm-block h-100">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <h2 class="tm-block-title d-inline-block">Books</h2>
+                    </div>
+                    <div class="col-md-4 col-sm-12 text-right">
+                        <a href="/addB?user_id=<%= encodeURIComponent(user_id) %>" class="btn btn-small btn-primary">Add New Books</a>
+                    </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped tm-table-striped-even mt-3">
+                        <thead>
+                            <tr class="tm-bg-gray">    
+                                <th scope="col">ID</th>       
+                                <th scope="col">Book Name</th>
+                                <th scope="col" class="text-center">Description</th>
+                                <th scope="col" class="text-center">Book version</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% for (let i = 0; i < data.length; i++) { %>
+                            <tr>
+                                <td class="tm-product-name" id="book_id" name="book_id"><%= data[i].dataValues.id %> </td>
+                                <td class="tm-product-name"><%= data[i].dataValues.book_name %> </td>
+                                <td class="text-center"><%= data[i].dataValues.description %></td>
+                                <td class="text-center"><a href="/version?book_id=<%= data[i].dataValues.id %>"><button >Version</button></a></td>
+                                
+                            </tr>
+                            <% }; %>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>            
+    </div>
+    
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="moment.min.js"></script>
+    <script src="utils.js"></script>
+    <script src="Chart.min.js"></script>
+    <script src="fullcalendar.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="tooplate-scripts.js"></script>
+    <script>
+        let ctxLine,
+            ctxBar,
+            ctxPie,
+            optionsLine,
+            optionsBar,
+            optionsPie,
+            configLine,
+            configBar,
+            configPie,
+            lineChart;
+        barChart, pieChart;
+        // DOM is ready
+        $(function () {
+            updateChartOptions();
+            drawLineChart(); // Line Chart
+            drawBarChart(); // Bar Chart
+            drawPieChart(); // Pie Chart
+            drawCalendar(); // Calendar
+
+            $(window).resize(function () {
+                updateChartOptions();
+                updateLineChart();
+                updateBarChart();
+                reloadPage();
+            });
+        })
+    </script>
+</body>
+</html>
