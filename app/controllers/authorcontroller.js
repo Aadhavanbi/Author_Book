@@ -42,7 +42,7 @@ const homepage =async(req, res, next)=>{
   const errorMessage = req.flash('error')[0];
   const testgit=132;
 
-  const test2="merage_tes_y8ogiu";
+  const test2="merage";
 
   //const test2="test_branch_1";
 
